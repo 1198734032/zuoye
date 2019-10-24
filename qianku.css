@@ -1,0 +1,154 @@
+<style>
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    color:white;
+}
+#all{
+    background-image:url(./resource/header_bg.jpg);
+    background-size:100% 100%;
+    width: 1000px;
+    height: 600px;
+    background-repeat:no-repeat ; 
+    background-position:center ;
+    margin-left:150px;
+}
+ #nav{
+     list-style-type: none;
+     font-size:15px;
+     width: 1000px;
+    
+ }
+ #nav li{
+    display: inline-block;
+    margin-top:30px;  
+   
+ }
+ #nav li a{
+    margin-left:50px; color: white;
+ }
+ #one{
+     font-size: 28px;
+     font-weight:600;
+     margin-left:150px; 
+ }
+ #two{
+     margin-left:200px;
+ }
+ #first{
+     font-size:22px;
+     margin-left:150px;
+     margin-top: 80px;
+     color:white;
+ }
+
+ #introduce{
+     font-size: 18px;
+     margin-left:150px;
+    margin-top: 80px;
+    width: 1000px;
+    color:white;
+ }
+#botton{
+      background-color:rgb(110, 214, 233);
+      color:white;
+      margin-left:180px;
+      margin-top:45px;
+      width: 100px;
+      height:25px;
+      border-radius: 5px;
+}
+#main{
+    display: flex ;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 45px;
+    justify-content: space-around; 
+    margin-top:60px;
+   
+}
+.main1{
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;  
+   box-shadow:2px 2px  gray;
+   text-align: center;
+}
+.main1 p,h4{
+    color:black
+}
+.main1 p{
+    font-size: 15px;
+}
+#design{
+    text-align: center;
+    margin-top:100px;
+}
+#design1,#design2{
+     color:black
+}
+#design2{
+    margin-top:30px;
+}
+.qianku{
+    display:flex;
+    flex-direction:row;
+}
+#qiankuright{
+    display:flex;
+    flex-direction:column;
+    margin-left:25px;
+}
+.qianku p,h4{
+    color:black;
+}
+ #qianku1{
+    display:flex;
+    margin-top:70px;
+}
+.text1{
+   margin-left:20px;
+}
+#footer{
+   margin-top: 80px;
+   text-align: center;
+}
+#footer h2,p{
+   color:black;
+}
+#blue{
+    margin-top: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;;
+
+}
+.blue1{
+background-image:url(./resource/data_bg.png);
+width:  250px;
+height: 150px;
+}
+#chart{
+   display: flex;
+   justify-content: space-around;
+   margin-top:40px;
+}
+#foot{
+   background-image: url(./resource/footer_bg.jpg);
+   width:1000px;
+   height: 200px;
+   margin-top:50px;
+}
+table{
+   text-align: center;
+   margin-top: 50px;
+   position: relative;
+   top:25px;
+}
+td{
+   width: 600px;
+   height: 20px;
+}
+</style>

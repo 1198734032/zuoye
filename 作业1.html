@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{ 
+            margin:0px;
+        }
+        .all{width: 600px;
+             height:500px;
+            border: 1px solid rgb(231, 228, 228); 
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left:300px
+        }
+        .head{
+            width: 600px;
+            height: 50px;
+            background-color: rgb(216, 207, 207);
+            border-radius: 15px 15px 0 0;
+        }
+        .main{
+            margin-left:100px;
+            margin-top:50px
+        }
+       
+        #p{
+            line-height:50px
+        }
+        li{
+            list-style-type: none;
+            margin:8px
+        }
+        #cha{
+            font-size: 25px;
+            margin-left:550px
+        }
+        #text{
+            width: 300px;
+            height:20px;
+            border-radius: 5px;
+        }
+        #password{
+            width: 300px;
+            height:20px;
+            border-radius: 5px;
+        }
+        #forget{
+            color:rgb(58, 179, 58);
+            margin-left:200px;
+            text-decoration: none;
+        }
+        .green{
+            color:rgb(58, 150, 58);
+        }
+        #denglu{
+            font-size:13px;
+            text-decoration: none;
+        }
+        #button{
+             width:300px;
+            height: 35px;
+            background-color: rgb(58, 179, 58);
+            border-radius: 5px;
+            
+        }
+        #line{
+            color:rgb(212, 211, 211)
+        }
+        #zhuce{
+            width:300px;
+            height: 35px;
+            border-radius: 5px;
+            border:1px solid rgb(192, 190, 190)
+        }
+         #last{
+            font-size: 15px;
+            color:rgb(177, 172, 172);
+         }
+           
+        .foot{ 
+        color:rgb(58, 179, 58);
+        text-decoration:none;
+        }     
+        
+       
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="head"> 
+         <p id="p">登录<span id="cha" >×</span> </p>
+        </div>
+        <div class="main">
+        <ul>
+           <li><strong>手机号或E-mail</strong></li>
+           <li><form > <input id="text" type="text"></li></form>
+           <li><p><strong>密码</strong><a href="#" id="forget" >忘记密码</a></p></li>
+           <li><form> <input id="password" type="password"></li></form>
+           <li><a href="#" class="green"><span id="denglu">手机验证码登录</span></a></li>
+           <li><a href="#" class="green"></a></li>
+           <li><a href="#"><button id="button">登录</button></a></li>
+           <li id="line">---------------------更多登录方式-------------------</li>
+           <li><img src="./resource/wechat.jpg" width= "40px" height="40px">
+            <img src="./resource/wechat.jpg" width= "40px" height="40px">
+            <img src="./resource/wechat.jpg" width= "40px" height="40px">
+            <img src="./resource/wechat.jpg" width= "40px" height="40px">
+            <img src="./resource/wechat.jpg" width= "40px" height="40px">
+            <img src="./resource/wechat.jpg" width= "40px" height="40px"></li>
+           <li><a href="#"><button id="zhuce">注册新账号</button></a></li>
+            <p id="last"> 继续即表示你同意<a href="#" class="foot">《服务条款》</a>和<a href="#" class="foot">《隐私政策》</a></p>
+        </ul>
+       </div>
+       
+
+    </div>
+</body>
+</html>
